@@ -1,6 +1,6 @@
 action: GLOB, msg: packaging
 cwd: C:\Users\Giri\Desktop\Docs\Data Science\ML Ops\Simple App
-cmd: 'c:\users\giri\desktop\docs\data science\ml ops\simple app\simpleapp\scripts\python.exe' setup.py sdist --formats=zip --dist-dir 'C:\Users\Giri\Desktop\Docs\Data Science\ML Ops\Simple App\.tox\dist'
+cmd: 'c:\users\giri\desktop\docs\data science\ml ops\simple app\simpleapp\scripts\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
 running sdist
 running egg_info
 writing my_package.egg-info\PKG-INFO
@@ -27,8 +27,7 @@ copying tests\__init__.py -> my_package-0.0.1\tests
 copying tests\conftest.py -> my_package-0.0.1\tests
 copying tests\test_config.py -> my_package-0.0.1\tests
 Writing my_package-0.0.1\setup.cfg
-creating C:\Users\Giri\Desktop\Docs\Data Science\ML Ops\Simple App\.tox\dist
-creating 'C:\Users\Giri\Desktop\Docs\Data Science\ML Ops\Simple App\.tox\dist\my_package-0.0.1.zip' and adding 'my_package-0.0.1' to it
+creating '.tox\dist\my_package-0.0.1.zip' and adding 'my_package-0.0.1' to it
 adding 'my_package-0.0.1\PKG-INFO'
 adding 'my_package-0.0.1\README.md'
 adding 'my_package-0.0.1\setup.cfg'

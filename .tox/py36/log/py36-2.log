@@ -1,0 +1,14 @@
+action: py36, msg: installpkg
+cwd: C:\Users\Giri\Desktop\Docs\Data Science\ML Ops\Simple App
+cmd: 'C:\Users\Giri\Desktop\Docs\Data Science\ML Ops\Simple App\.tox\py36\Scripts\python.EXE' -m pip install --exists-action w '.tox\.tmp\package\1\my_package-0.0.1.zip'
+Processing c:\users\giri\desktop\docs\data science\ml ops\simple app\.tox\.tmp\package\1\my_package-0.0.1.zip
+Building wheels for collected packages: my-package
+  Building wheel for my-package (setup.py): started
+  Building wheel for my-package (setup.py): finished with status 'done'
+  Created wheel for my-package: filename=my_package-0.0.1-py3-none-any.whl size=1705 sha256=757b7d75bc8d9ce9386d2b53cb2836471d0b1f1505a1b124e9f891e1b87fb01e
+  Stored in directory: c:\users\giri\appdata\local\pip\cache\wheels\31\9d\33\0488739babdad9f5d648ecd69674683169cce8b7db004ea8ad
+Successfully built my-package
+Installing collected packages: my-package
+Successfully installed my-package-0.0.1
+WARNING: You are using pip version 21.1.3; however, version 21.2.1 is available.
+You should consider upgrading via the 'C:\Users\Giri\Desktop\Docs\Data Science\ML Ops\Simple App\.tox\py36\Scripts\python.EXE -m pip install --upgrade pip' command.

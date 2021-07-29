@@ -1,0 +1,237 @@
+action: py36, msg: getenv
+cwd: C:\Users\Giri\Desktop\Docs\Data Science\ML Ops\Simple App
+cmd: 'C:\Users\Giri\Desktop\Docs\Data Science\ML Ops\Simple App\.tox\py36\Scripts\python.EXE' -m pip install -rrequirements.txt
+Collecting dvc
+  Downloading dvc-2.5.4-py3-none-any.whl (638 kB)
+Collecting sklearn
+  Using cached sklearn-0.0-py2.py3-none-any.whl
+Collecting pandas
+  Using cached pandas-1.1.5-cp36-cp36m-win_amd64.whl (8.7 MB)
+Collecting pytest
+  Using cached pytest-6.2.4-py3-none-any.whl (280 kB)
+Collecting tox
+  Downloading tox-3.24.0-py2.py3-none-any.whl (85 kB)
+Collecting flake8
+  Using cached flake8-3.9.2-py2.py3-none-any.whl (73 kB)
+Collecting colorama>=0.3.9
+  Using cached colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Collecting flatten-dict<1,>=0.3.0
+  Downloading flatten_dict-0.4.1-py2.py3-none-any.whl (9.5 kB)
+Collecting tqdm<5,>=4.45.0
+  Using cached tqdm-4.61.2-py2.py3-none-any.whl (76 kB)
+Collecting toml>=0.10.1
+  Using cached toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting dpath<3,>=2.0.1
+  Using cached dpath-2.0.1-py3-none-any.whl
+Collecting fsspec>=2021.6.1
+  Downloading fsspec-2021.7.0-py3-none-any.whl (118 kB)
+Collecting python-benedict>=0.21.1
+  Using cached python_benedict-0.24.0-py3-none-any.whl (40 kB)
+Collecting ply>=3.9
+  Using cached ply-3.11-py2.py3-none-any.whl (49 kB)
+Collecting networkx~=2.5
+  Using cached networkx-2.5.1-py3-none-any.whl (1.6 MB)
+Collecting pygit2>=1.5.0
+  Using cached pygit2-1.6.1-cp36-cp36m-win_amd64.whl (1.2 MB)
+Collecting gitpython>3
+  Using cached GitPython-3.1.18-py3-none-any.whl (170 kB)
+Collecting shtab<2,>=1.3.4
+  Downloading shtab-1.3.9-py2.py3-none-any.whl (12 kB)
+Collecting dictdiffer>=0.8.1
+  Downloading dictdiffer-0.9.0-py2.py3-none-any.whl (16 kB)
+Collecting appdirs>=1.4.3
+  Using cached appdirs-1.4.4-py2.py3-none-any.whl (9.6 kB)
+Collecting zc.lockfile>=1.2.1
+  Using cached zc.lockfile-2.0-py2.py3-none-any.whl (9.7 kB)
+Collecting nanotime>=0.5.2
+  Using cached nanotime-0.5.2-py3-none-any.whl
+Collecting ruamel.yaml>=0.16.1
+  Using cached ruamel.yaml-0.17.10-py3-none-any.whl (108 kB)
+Collecting dulwich>=0.20.23
+  Downloading dulwich-0.20.24-cp36-cp36m-win_amd64.whl (487 kB)
+Collecting dataclasses==0.7
+  Using cached dataclasses-0.7-py3-none-any.whl (18 kB)
+Collecting distro>=1.3.0
+  Using cached distro-1.5.0-py2.py3-none-any.whl (18 kB)
+Collecting importlib-metadata>=1.4
+  Using cached importlib_metadata-4.6.1-py3-none-any.whl (17 kB)
+Collecting rich>=10.0.0
+  Downloading rich-10.6.0-py3-none-any.whl (208 kB)
+Collecting diskcache>=5.2.1
+  Using cached diskcache-5.2.1-py3-none-any.whl (44 kB)
+Collecting configobj>=5.0.6
+  Using cached configobj-5.0.6-py3-none-any.whl
+Collecting funcy>=1.14
+  Using cached funcy-1.16-py2.py3-none-any.whl (32 kB)
+Collecting pathspec>=0.6.0
+  Downloading pathspec-0.9.0-py2.py3-none-any.whl (31 kB)
+Collecting requests>=2.22.0
+  Downloading requests-2.26.0-py2.py3-none-any.whl (62 kB)
+Collecting flufl.lock<4,>=3.2
+  Using cached flufl.lock-3.2-py3-none-any.whl
+Requirement already satisfied: setuptools>=34.0.0 in c:\users\giri\desktop\docs\data science\ml ops\simple app\.tox\py36\lib\site-packages (from dvc->-r requirements.txt (line 1)) (57.0.0)
+Collecting shortuuid>=0.5.0
+  Using cached shortuuid-1.0.1-py3-none-any.whl (7.5 kB)
+Collecting pyparsing==2.4.7
+  Using cached pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+Collecting packaging>=19.0
+  Using cached packaging-21.0-py3-none-any.whl (40 kB)
+Collecting pydot>=1.2.4
+  Using cached pydot-1.4.2-py2.py3-none-any.whl (21 kB)
+Collecting typing-extensions>=3.7.4
+  Using cached typing_extensions-3.10.0.0-py3-none-any.whl (26 kB)
+Collecting pyasn1>=0.4.1
+  Using cached pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+Collecting pygtrie>=2.3.2
+  Using cached pygtrie-2.4.2-py3-none-any.whl
+Collecting psutil>=5.8.0
+  Using cached psutil-5.8.0-cp36-cp36m-win_amd64.whl (244 kB)
+Collecting speedcopy>=2.0.1
+  Using cached speedcopy-2.1.0-py3-none-any.whl (12 kB)
+Collecting grandalf==0.6
+  Using cached grandalf-0.6-py3-none-any.whl (31 kB)
+Collecting win-unicode-console>=0.5
+  Using cached win_unicode_console-0.5-py3-none-any.whl
+Collecting jsonpath-ng>=1.5.1
+  Using cached jsonpath_ng-1.5.3-py3-none-any.whl (29 kB)
+Collecting pywin32>=225
+  Using cached pywin32-301-cp36-cp36m-win_amd64.whl (9.2 MB)
+Collecting voluptuous>=0.11.7
+  Using cached voluptuous-0.12.1-py3-none-any.whl (29 kB)
+Collecting tabulate>=0.8.7
+  Using cached tabulate-0.8.9-py3-none-any.whl (25 kB)
+Collecting future
+  Using cached future-0.18.2-py3-none-any.whl
+Collecting six
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting certifi
+  Using cached certifi-2021.5.30-py2.py3-none-any.whl (145 kB)
+Collecting urllib3>=1.24.1
+  Using cached urllib3-1.26.6-py2.py3-none-any.whl (138 kB)
+Collecting atpublic
+  Using cached atpublic-2.3-py3-none-any.whl
+Collecting gitdb<5,>=4.0.1
+  Using cached gitdb-4.0.7-py3-none-any.whl (63 kB)
+Collecting smmap<5,>=3.0.1
+  Using cached smmap-4.0.0-py2.py3-none-any.whl (24 kB)
+Collecting zipp>=0.5
+  Using cached zipp-3.5.0-py3-none-any.whl (5.7 kB)
+Collecting decorator
+  Using cached decorator-5.0.9-py3-none-any.whl (8.9 kB)
+  Using cached decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Collecting cached-property
+  Using cached cached_property-1.5.2-py2.py3-none-any.whl (7.6 kB)
+Collecting cffi>=1.4.0
+  Downloading cffi-1.14.6-cp36-cp36m-win_amd64.whl (178 kB)
+Collecting pycparser
+  Using cached pycparser-2.20-py2.py3-none-any.whl (112 kB)
+Collecting python-slugify
+  Using cached python_slugify-5.0.2-py2.py3-none-any.whl (6.7 kB)
+Collecting ftfy
+  Using cached ftfy-6.0.3-py3-none-any.whl
+Collecting xmltodict
+  Using cached xmltodict-0.12.0-py2.py3-none-any.whl (9.2 kB)
+Collecting python-dateutil
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting python-fsutil
+  Using cached python_fsutil-0.5.0-py3-none-any.whl (11 kB)
+Collecting pyyaml
+  Using cached PyYAML-5.4.1-cp36-cp36m-win_amd64.whl (209 kB)
+Collecting mailchecker
+  Downloading mailchecker-4.0.11.tar.gz (201 kB)
+Collecting phonenumbers
+  Downloading phonenumbers-8.12.28-py2.py3-none-any.whl (2.6 MB)
+Collecting idna<4,>=2.5
+  Downloading idna-3.2-py3-none-any.whl (59 kB)
+Collecting charset-normalizer~=2.0.0
+  Downloading charset_normalizer-2.0.3-py3-none-any.whl (35 kB)
+Collecting commonmark<0.10.0,>=0.9.0
+  Using cached commonmark-0.9.1-py2.py3-none-any.whl (51 kB)
+Collecting pygments<3.0.0,>=2.6.0
+  Using cached Pygments-2.9.0-py3-none-any.whl (1.0 MB)
+Collecting ruamel.yaml.clib>=0.1.2
+  Using cached ruamel.yaml.clib-0.2.6-cp36-cp36m-win_amd64.whl (115 kB)
+Collecting scikit-learn
+  Using cached scikit_learn-0.24.2-cp36-cp36m-win_amd64.whl (6.8 MB)
+Collecting pytz>=2017.2
+  Using cached pytz-2021.1-py2.py3-none-any.whl (510 kB)
+Collecting numpy>=1.15.4
+  Using cached numpy-1.19.5-cp36-cp36m-win_amd64.whl (13.2 MB)
+Collecting iniconfig
+  Using cached iniconfig-1.1.1-py2.py3-none-any.whl (5.0 kB)
+Collecting attrs>=19.2.0
+  Using cached attrs-21.2.0-py2.py3-none-any.whl (53 kB)
+Collecting atomicwrites>=1.0
+  Using cached atomicwrites-1.4.0-py2.py3-none-any.whl (6.8 kB)
+Collecting py>=1.8.2
+  Using cached py-1.10.0-py2.py3-none-any.whl (97 kB)
+Collecting pluggy<1.0.0a1,>=0.12
+  Using cached pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+Collecting filelock>=3.0.0
+  Using cached filelock-3.0.12-py3-none-any.whl (7.6 kB)
+Collecting virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0
+  Downloading virtualenv-20.6.0-py2.py3-none-any.whl (5.3 MB)
+Collecting importlib-resources>=1.0
+  Downloading importlib_resources-5.2.1-py3-none-any.whl (27 kB)
+Collecting distlib<1,>=0.3.1
+  Using cached distlib-0.3.2-py2.py3-none-any.whl (338 kB)
+Collecting platformdirs<3,>=2
+  Downloading platformdirs-2.1.0-py3-none-any.whl (13 kB)
+Collecting backports.entry-points-selectable>=1.0.4
+  Downloading backports.entry_points_selectable-1.1.0-py2.py3-none-any.whl (6.2 kB)
+Collecting pyflakes<2.4.0,>=2.3.0
+  Using cached pyflakes-2.3.1-py2.py3-none-any.whl (68 kB)
+Collecting pycodestyle<2.8.0,>=2.7.0
+  Using cached pycodestyle-2.7.0-py2.py3-none-any.whl (41 kB)
+Collecting mccabe<0.7.0,>=0.6.0
+  Using cached mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+Collecting pydrive2>=1.8.1
+  Using cached PyDrive2-1.8.3-py2.py3-none-any.whl (31 kB)
+Collecting oauth2client>=4.0.0
+  Using cached oauth2client-4.1.3-py2.py3-none-any.whl (98 kB)
+Collecting google-api-python-client>=1.12.5
+  Downloading google_api_python_client-2.15.0-py2.py3-none-any.whl (7.2 MB)
+Collecting pyOpenSSL>=19.1.0
+  Using cached pyOpenSSL-20.0.1-py2.py3-none-any.whl (54 kB)
+Collecting uritemplate<4dev,>=3.0.0
+  Using cached uritemplate-3.0.1-py2.py3-none-any.whl (15 kB)
+Collecting google-auth-httplib2>=0.1.0
+  Using cached google_auth_httplib2-0.1.0-py2.py3-none-any.whl (9.3 kB)
+Collecting google-auth<3.0.0dev,>=1.16.0
+  Downloading google_auth-1.34.0-py2.py3-none-any.whl (152 kB)
+Collecting httplib2<1dev,>=0.15.0
+  Using cached httplib2-0.19.1-py3-none-any.whl (95 kB)
+Collecting google-api-core<3.0.0dev,>=1.21.0
+  Downloading google_api_core-1.31.1-py2.py3-none-any.whl (93 kB)
+Collecting googleapis-common-protos<2.0dev,>=1.6.0
+  Using cached googleapis_common_protos-1.53.0-py2.py3-none-any.whl (198 kB)
+Collecting protobuf>=3.12.0
+  Using cached protobuf-3.17.3-cp36-cp36m-win_amd64.whl (910 kB)
+Collecting cachetools<5.0,>=2.0.0
+  Using cached cachetools-4.2.2-py3-none-any.whl (11 kB)
+Collecting rsa<5,>=3.1.4
+  Using cached rsa-4.7.2-py3-none-any.whl (34 kB)
+Collecting pyasn1-modules>=0.2.1
+  Using cached pyasn1_modules-0.2.8-py2.py3-none-any.whl (155 kB)
+Collecting cryptography>=3.2
+  Using cached cryptography-3.4.7-cp36-abi3-win_amd64.whl (1.6 MB)
+Collecting wcwidth
+  Using cached wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+Collecting text-unidecode>=1.3
+  Using cached text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
+Collecting threadpoolctl>=2.0.0
+  Downloading threadpoolctl-2.2.0-py3-none-any.whl (12 kB)
+Collecting scipy>=0.19.1
+  Using cached scipy-1.5.4-cp36-cp36m-win_amd64.whl (31.2 MB)
+Collecting joblib>=0.11
+  Using cached joblib-1.0.1-py3-none-any.whl (303 kB)
+Building wheels for collected packages: mailchecker
+  Building wheel for mailchecker (setup.py): started
+  Building wheel for mailchecker (setup.py): finished with status 'done'
+  Created wheel for mailchecker: filename=mailchecker-4.0.11-py3-none-any.whl size=201671 sha256=a60d563131b2df70c58868497cfbd6377a7ae71826c347968e31818f71bd07e5
+  Stored in directory: c:\users\giri\appdata\local\pip\cache\wheels\d0\0d\c6\57144ef291d63bafdc9a70238056ea6cf02280758ae2b1fe36
+Successfully built mailchecker
+Installing collected packages: six, pyasn1, urllib3, rsa, pyparsing, pycparser, pyasn1-modules, protobuf, idna, charset-normalizer, certifi, cachetools, zipp, wcwidth, typing-extensions, text-unidecode, smmap, requests, pytz, packaging, httplib2, googleapis-common-protos, google-auth, cffi, xmltodict, uritemplate, toml, ruamel.yaml.clib, pyyaml, python-slugify, python-fsutil, python-dateutil, pygments, ply, phonenumbers, numpy, mailchecker, importlib-metadata, google-auth-httplib2, google-api-core, gitdb, future, ftfy, decorator, dataclasses, cryptography, commonmark, colorama, cached-property, atpublic, zc.lockfile, win-unicode-console, voluptuous, tqdm, threadpoolctl, tabulate, speedcopy, shtab, shortuuid, scipy, ruamel.yaml, rich, pywin32, python-benedict, pyOpenSSL, pygtrie, pygit2, pydot, psutil, platformdirs, pathspec, oauth2client, networkx, nanotime, jsonpath-ng, joblib, importlib-resources, grandalf, google-api-python-client, gitpython, funcy, fsspec, flufl.lock, flatten-dict, filelock, dulwich, dpath, distro, distlib, diskcache, dictdiffer, configobj, backports.entry-points-selectable, appdirs, virtualenv, scikit-learn, pyflakes, pydrive2, pycodestyle, py, pluggy, mccabe, iniconfig, dvc, attrs, atomicwrites, tox, sklearn, pytest, pandas, flake8
+Successfully installed appdirs-1.4.4 atomicwrites-1.4.0 atpublic-2.3 attrs-21.2.0 backports.entry-points-selectable-1.1.0 cached-property-1.5.2 cachetools-4.2.2 certifi-2021.5.30 cffi-1.14.6 charset-normalizer-2.0.3 colorama-0.4.4 commonmark-0.9.1 configobj-5.0.6 cryptography-3.4.7 dataclasses-0.7 decorator-4.4.2 dictdiffer-0.9.0 diskcache-5.2.1 distlib-0.3.2 distro-1.5.0 dpath-2.0.1 dulwich-0.20.24 dvc-2.5.4 filelock-3.0.12 flake8-3.9.2 flatten-dict-0.4.1 flufl.lock-3.2 fsspec-2021.7.0 ftfy-6.0.3 funcy-1.16 future-0.18.2 gitdb-4.0.7 gitpython-3.1.18 google-api-core-1.31.1 google-api-python-client-2.15.0 google-auth-1.34.0 google-auth-httplib2-0.1.0 googleapis-common-protos-1.53.0 grandalf-0.6 httplib2-0.19.1 idna-3.2 importlib-metadata-4.6.1 importlib-resources-5.2.1 iniconfig-1.1.1 joblib-1.0.1 jsonpath-ng-1.5.3 mailchecker-4.0.11 mccabe-0.6.1 nanotime-0.5.2 networkx-2.5.1 numpy-1.19.5 oauth2client-4.1.3 packaging-21.0 pandas-1.1.5 pathspec-0.9.0 phonenumbers-8.12.28 platformdirs-2.1.0 pluggy-0.13.1 ply-3.11 protobuf-3.17.3 psutil-5.8.0 py-1.10.0 pyOpenSSL-20.0.1 pyasn1-0.4.8 pyasn1-modules-0.2.8 pycodestyle-2.7.0 pycparser-2.20 pydot-1.4.2 pydrive2-1.8.3 pyflakes-2.3.1 pygit2-1.6.1 pygments-2.9.0 pygtrie-2.4.2 pyparsing-2.4.7 pytest-6.2.4 python-benedict-0.24.0 python-dateutil-2.8.2 python-fsutil-0.5.0 python-slugify-5.0.2 pytz-2021.1 pywin32-301 pyyaml-5.4.1 requests-2.26.0 rich-10.6.0 rsa-4.7.2 ruamel.yaml-0.17.10 ruamel.yaml.clib-0.2.6 scikit-learn-0.24.2 scipy-1.5.4 shortuuid-1.0.1 shtab-1.3.9 six-1.16.0 sklearn-0.0 smmap-4.0.0 speedcopy-2.1.0 tabulate-0.8.9 text-unidecode-1.3 threadpoolctl-2.2.0 toml-0.10.2 tox-3.24.0 tqdm-4.61.2 typing-extensions-3.10.0.0 uritemplate-3.0.1 urllib3-1.26.6 virtualenv-20.6.0 voluptuous-0.12.1 wcwidth-0.2.5 win-unicode-console-0.5 xmltodict-0.12.0 zc.lockfile-2.0 zipp-3.5.0
+WARNING: You are using pip version 21.1.3; however, version 21.2.1 is available.
+You should consider upgrading via the 'C:\Users\Giri\Desktop\Docs\Data Science\ML Ops\Simple App\.tox\py36\Scripts\python.EXE -m pip install --upgrade pip' command.
